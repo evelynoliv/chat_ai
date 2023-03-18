@@ -1,8 +1,8 @@
 import openai
 import dotenv
 
-API_KEY = ;
-openai.api_key = API_KEY
+# API_KEY = process.env.OPEN_API_KEY
+openai.api_key = process.env.OPEN_API_KEY
 model = 'text-davinci-003'
 
 question = str(input('ask and you shall receive: '))
